@@ -12,5 +12,5 @@ public class RuleTestApp {
     public static void main(String[] args) {
         SpringApplication.run(RuleTestApp.class, args);
     }
-
+   
 }
