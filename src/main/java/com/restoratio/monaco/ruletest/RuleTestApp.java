@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 @ComponentScan
-public class RuleTestApp {
+public class RuleTestApp { 
 
     public static void main(String[] args) {
         SpringApplication.run(RuleTestApp.class, args);
