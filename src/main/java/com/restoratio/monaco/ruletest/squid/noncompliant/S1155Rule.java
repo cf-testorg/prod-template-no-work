@@ -248,7 +248,7 @@ public class S1155Rule {
         if (children.size() > 0) {
             return String.format("Has %d children", children.size());
         }
-        if (children.size() > 0) {
+        if (!children.isEmpty()) {
             return String.format("Has %d children", children.size());
         }
         if (children.size() > 0) {
